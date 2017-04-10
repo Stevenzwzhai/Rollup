@@ -1,13 +1,1 @@
-<template>
-    <div>hello vue</div>
-</template>
-<script>
-    export default{
-        data(){
-            return {}
-        }
-    }
-</script>
-<style scoped>
-
-</style>
+<template>    <div>        hello rollup        <input type="text">        <div>demo for rollup</div>        <div>divasdf asdf</div>        <input type="text" v-model="info">        <div v-bind="info" class="footer">asd</div>    </div></template><script>    export default{        data(){            return {                info:12            }        }    }</script><style scoped>.footer{    height:12px;    width:100%;    background:#3a33d1;}</style>
